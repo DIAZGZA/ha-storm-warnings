@@ -143,7 +143,8 @@ Met Éireann and MeteoAlarm use yellow/orange/red directly. NWS severity is mapp
 Moderate = yellow, Severe = orange, Extreme = red; Minor is ignored.
 
 ## MeteoAlarm region codes
-
+Zaragoza capital=  ES625003
+Utebo=             ES107
 Country is the name in the feed URL `https://feeds.meteoalarm.org/api/v1/warnings/feeds-COUNTRY`
 (e.g. `ireland`, `united-kingdom`, `france`); setup checks that the feed exists. For region codes,
 open that URL and look for `"valueName":"EMMA_ID"` next to an `areaDesc` naming your area.
